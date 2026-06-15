@@ -1,0 +1,132 @@
+/* CNN Classification - Clean Style */
+
+body, [data-testid="stApp"] {
+    background-color: #0f1117;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.header-block {
+    background: linear-gradient(135deg, #1a1f2e, #252b3b);
+    border-left: 4px solid #4a90d9;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.header-block h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 0.3rem 0;
+}
+
+.header-block p {
+    color: #9ba3b5;
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+[data-testid="stMetricValue"] {
+    color: #4a90d9 !important;
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #9ba3b5 !important;
+    font-size: 0.8rem !important;
+}
+
+[data-testid="stTabs"] [role="tab"] {
+    color: #9ba3b5;
+    font-size: 0.9rem;
+    padding: 0.5rem 1.2rem;
+}
+
+[data-testid="stTabs"] [aria-selected="true"] {
+    color: #4a90d9 !important;
+    border-bottom: 2px solid #4a90d9 !important;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1a1f2e;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #252b3b;
+    color: #9ba3b5;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    padding: 0.6rem 1rem;
+    text-align: left;
+    letter-spacing: 0.05em;
+}
+
+td {
+    color: #e0e0e0;
+    padding: 0.5rem 1rem;
+    font-size: 0.88rem;
+    border-top: 1px solid #252b3b;
+}
+
+tr:hover td {
+    background-color: #1e2535;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #141820;
+    border-right: 1px solid #252b3b;
+}
+
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] .stMarkdown {
+    color: #9ba3b5;
+    font-size: 0.88rem;
+}
+
+.stButton > button {
+    background-color: #4a90d9;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.stButton > button:hover {
+    background-color: #3a7bc8;
+}
+
+.pixel-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 28px);
+    grid-template-rows: repeat(8, 28px);
+    gap: 2px;
+    margin-top: 0.5rem;
+}
+
+.pixel {
+    width: 28px;
+    height: 28px;
+    border-radius: 2px;
+}
+
+[data-testid="stSlider"] label {
+    color: #9ba3b5;
+}
+
+hr {
+    border-color: #252b3b;
+}
+
+.stSpinner > div {
+    color: #4a90d9 !important;
+}
